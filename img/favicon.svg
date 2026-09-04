@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="19歳解禁">
+  <!-- 16pxでも読めるものにする。ロゴの字は潰れるので、キャンペーンの数字を使う。
+       色は「解禁」のシアングラデから採った（#6fe4ee → #1f9fe0）。 -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fe4ee"/>
+      <stop offset=".46" stop-color="#29c2ec"/>
+      <stop offset="1" stop-color="#1f9fe0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <text x="32" y="45" text-anchor="middle"
+        font-family="Impact, 'Arial Black', sans-serif" font-size="40" font-weight="900"
+        fill="#fff" letter-spacing="-1">19</text>
+</svg>

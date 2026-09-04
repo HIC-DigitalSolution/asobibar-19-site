@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>19歳から入店 遂に解禁 ｜ASOBIBAR 神戸三宮店</title>
+<meta name="description" content="ASOBIBAR 神戸三宮店限定 満19歳から入店できるようになりました 19:00〜22:00は遊び放題・ノンアルコール飲み放題 平日女性500円から">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="19歳から入店 遂に解禁 ｜ASOBIBAR 神戸三宮店">
+<meta property="og:description" content="満19歳から入店できるようになりました 神戸三宮店限定 19:00〜22:00のノンアルコールプランです">
+<!-- カンプのロックアップから 1200x630 を書き出したもの。
+     **og:image と og:url は絶対URLでないとクローラが拾わない。**
+     2026-09-04、GitHub Pages（配信用リポジトリ asobibar-19-site）で公開したので
+     そのURLを入れた。**独自ドメインに移すときは、この2行も一緒に直す。** -->
+<meta property="og:url" content="https://hic-digitalsolution.github.io/asobibar-19-site/">
+<meta property="og:image" content="https://hic-digitalsolution.github.io/asobibar-19-site/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="19歳から入店 遂に解禁 ASOBIBAR 神戸三宮店限定 2026年7月1日スタート">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css?v=84">
+</head>
+<body>
+
+<!-- ルールのアイコンはここに1回だけ置いて、各カードから <use> で引く。
+     カードに直接 path を書いていた頃は、同じ絵が9か所に散っていて線幅も
+     字形の大きさもバラバラだった。1か所に集めれば作りが揃う。
+     作りの決まり：viewBox 64×64／線は stroke-width 3・round cap・round join／
+     禁止リングは #ban を使い回す（r=25）／字形は 40×40 に納める。 -->
+<svg class="icon-sprite" width="0" height="0" aria-hidden="true" focusable="false"><defs>
+  <g id="ban">
+    <circle cx="32" cy="32" r="25" fill="none" stroke="#e14c42" stroke-width="4"/>
+    <path d="M14.3 49.7 49.7 14.3" fill="none" stroke="#e14c42" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- 時計。針は19時を指す -->
+  <symbol id="i-clock" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="21" fill="#ffe9a3" stroke="#111" stroke-width="3"/>
+    <g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round">
+      <path d="M32 14v2.6M49.4 32h-2.6M32 50v-2.6M14.6 32h2.6"/>
+      <path d="M32 32V19"/><path d="M32 32l-6 9.6"/>
+    </g>
+    <circle cx="32" cy="32" r="2.6" fill="#111"/>
+  </symbol>
+
+  <!-- ジョッキに禁止 -->
+  <symbol id="i-no-beer" viewBox="0 0 64 64">
+    <g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path fill="#f7c948" d="M19 27h18v19a4 4 0 0 1-4 4h-10a4 4 0 0 1-4-4z"/>
+      <path d="M37 32h5a4 4 0 0 1 4 4v5a4 4 0 0 1-4 4h-5"/>
+      <path fill="#fff" d="M19 27q-2.5-8 4.5-8.5.5-5 6-3.5 6.5-1.5 6.5 6 2 2.5 0 6z"/>
+    </g>
+    <use href="#ban"/>
+  </symbol>
+
+  <!-- ハートに25 -->
+  <symbol id="i-match25" viewBox="0 0 64 64">
+    <path fill="#ef6b8a" stroke="#111" stroke-width="3" stroke-linejoin="round"
+          d="M32 52C20 43 10 35 10 25.5A11.5 11.5 0 0 1 32 20a11.5 11.5 0 0 1 22 5.5C54 35 44 43 32 52Z"/>
+    <text x="32" y="36" fill="#fff" text-anchor="middle"
+          style="font:900 19px/1 Arial,Helvetica,sans-serif;letter-spacing:-.02em">25</text>
+  </symbol>
+
+  <!-- 王冠に禁止（ゴールドバンド・VIP） -->
+  <symbol id="i-no-vip" viewBox="0 0 64 64">
+    <g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path fill="#e0ac2b" d="M15 45V24l8.5 7.5L32 19l8.5 12.5L49 24v21z"/>
+      <path d="M15 45h34"/>
+    </g>
+    <use href="#ban"/>
+  </symbol>
+
+  <!-- 手首のバンドを見せる -->
+  <symbol id="i-band" viewBox="0 0 64 64">
+    <g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <!-- 親指。手のひらより先に描いて、手のひらの白で根元を隠す。
+           出方が短いと手袋に見えるので、8px ぶんはっきり出す -->
+      <path fill="#fff" d="M20.5 31l-8 4.6a3.6 3.6 0 0 0 3.6 6.2l6.4-3.7z"/>
+      <path fill="#fff" d="M20 41V17a2.8 2.8 0 0 1 5.6 0v14a1.2 1.2 0 0 0 2.4 0V13.5a2.8 2.8 0 0 1 5.6 0V31a1.2 1.2 0 0 0 2.4 0V16a2.8 2.8 0 0 1 5.6 0v15a1.2 1.2 0 0 0 2.4 0v-9.5a2.8 2.8 0 0 1 5.6 0V41a9 9 0 0 1-9 9H29a9 9 0 0 1-9-9z"/>
+      <path fill="#3f9c54" d="M22 39h25.6v7H22z"/>
+    </g>
+  </symbol>
+
+  <!-- ヘッドセットのスタッフ -->
+  <symbol id="i-staff" viewBox="0 0 64 64">
+    <g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path fill="#cfe9f5" d="M32 15a9.5 9.5 0 0 1 9.5 9.5v4a9.5 9.5 0 0 1-19 0v-4A9.5 9.5 0 0 1 32 15z"/>
+      <path d="M19.5 28v-4a12.5 12.5 0 0 1 25 0v4"/>
+      <path fill="#fff" d="M16.5 26h4v9h-4zM43.5 26h4v9h-4z"/>
+      <path d="M45.5 35v2.5a4.5 4.5 0 0 1-4.5 4.5h-4"/>
+      <path fill="#cfe9f5" d="M15 53a17 17 0 0 1 34 0z"/>
+    </g>
+  </symbol>
+
+
+  <!-- 警告の三角 -->
+  <symbol id="i-warning" viewBox="0 0 64 64">
+    <path fill="#ef6b8a" stroke="#111" stroke-width="3" stroke-linejoin="round"
+          d="M28.6 10.5a4 4 0 0 1 6.8 0l21 36A4 4 0 0 1 53 52.5H11a4 4 0 0 1-3.4-6z"/>
+    <path fill="#fff" d="M29.4 22h5.2l-.9 16h-3.4zM32 42a3.3 3.3 0 1 1 0 6.6 3.3 3.3 0 0 1 0-6.6z"/>
+  </symbol>
+
+
+  <!-- 白線版のジョッキ禁止。コーラル地の rule-notice で使うので currentColor -->
+  <!-- Instagram。ブランドのグラデーションだけ再現して、形は線で作る -->
+  <linearGradient id="ig-grad" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0"   stop-color="#f9ce34"/>
+    <stop offset=".45" stop-color="#ee2a7b"/>
+    <stop offset="1"   stop-color="#6228d7"/>
+  </linearGradient>
+  <symbol id="i-instagram" viewBox="0 0 64 64">
+    <rect x="11" y="11" width="42" height="42" rx="13" fill="url(#ig-grad)" stroke="#111" stroke-width="3"/>
+    <circle cx="32" cy="32" r="10" fill="none" stroke="#fff" stroke-width="3.4"/>
+    <circle cx="43.5" cy="20.5" r="2.8" fill="#fff"/>
+  </symbol>
+
+  <!-- TikTok。24pxの公式字形を 2.44 倍して 64 に合わせている。
+       シアンとマゼンタをずらして重ねるのがロゴの作り。 -->
+  <symbol id="i-tiktok" viewBox="0 0 64 64">
+    <g transform="translate(2.7 2.7) scale(2.44)">
+      <path fill="#25f4ee" transform="translate(-1.4 1.4)" d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 1 1-2.59-2.68c.27 0 .53.04.78.13v-3.2a5.84 5.84 0 0 0-.78-.05 5.79 5.79 0 1 0 5.79 5.79V8.6a7.34 7.34 0 0 0 4.28 1.38V6.9a4.28 4.28 0 0 1-3.33-1.08z"/>
+      <path fill="#fe2c55" transform="translate(1.4 -1.4)" d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 1 1-2.59-2.68c.27 0 .53.04.78.13v-3.2a5.84 5.84 0 0 0-.78-.05 5.79 5.79 0 1 0 5.79 5.79V8.6a7.34 7.34 0 0 0 4.28 1.38V6.9a4.28 4.28 0 0 1-3.33-1.08z"/>
+      <path fill="#111" d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 1 1-2.59-2.68c.27 0 .53.04.78.13v-3.2a5.84 5.84 0 0 0-.78-.05 5.79 5.79 0 1 0 5.79 5.79V8.6a7.34 7.34 0 0 0 4.28 1.38V6.9a4.28 4.28 0 0 1-3.33-1.08z"/>
+    </g>
+  </symbol>
+
+  <symbol id="i-no-alcohol" viewBox="0 0 64 64">
+    <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M19 27h18v19a4 4 0 0 1-4 4h-10a4 4 0 0 1-4-4z"/>
+      <path d="M37 32h5a4 4 0 0 1 4 4v5a4 4 0 0 1-4 4h-5"/>
+      <path d="M19 27q-2.5-8 4.5-8.5.5-5 6-3.5 6.5-1.5 6.5 6 2 2.5 0 6z"/>
+      <circle cx="32" cy="32" r="25" stroke-width="4"/>
+      <path d="M14.3 49.7 49.7 14.3" stroke-width="4"/>
+    </g>
+  </symbol>
+</defs></svg>
+
+
+<a class="skip-link" href="#main">本文へ移動</a>
+
+<!-- ===== 2026-09-04 §10（スタジオあかり）の試作。判断待ち =====
+     ① 外周: カラムの外に出た幅を、FVと同じパステルの図形で埋める。
+        position: fixed なのでスクロールしても動かない。**情報は置かない。**
+     ② 右タブ: fixed 層の中にカラムと同じ幅（--pagew）の基準ボックスを置き、
+        その右端に right: -118px で吊る。ビューポート幅が変わっても付いてくる。
+        **タブの色は飛び先セクションの地の色。**
+     どちらも 768px 未満では出さない（SPには外周が無いので） -->
+<div class="outer" aria-hidden="true"></div>
+
+<nav class="sidetabs" aria-label="セクション">
+  <div class="sidetabs__anchor">
+    <ul class="sidetabs__list">
+      <li><a class="sidetab sidetab--contents" href="#contents-title"><b>CONTENTS</b><small>遊べる内容</small></a></li>
+      <li><a class="sidetab sidetab--plan"     href="#plan-title"><b>PLAN</b><small>料金</small></a></li>
+      <li><a class="sidetab sidetab--rule"     href="#rules-title"><b>RULE</b><small>ルール</small></a></li>
+      <li><a class="sidetab sidetab--store"    href="#store-title"><b>SHOP</b><small>店舗情報</small></a></li>
+      <li><a class="sidetab sidetab--sns"      href="#sns-title"><b>SNS</b><small>店舗のSNS</small></a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page">
+  <!-- ヘッダーの導線は1本だけ。店舗の要望で入れている。
+       採用情報とご予約は置かない。採用は訴求と行き先が噛み合わず 
+       ご予約は固定CTAと重複する。
+       行き先は公式の店舗一覧の**神戸エリア（#area-2）**。
+       このアンカーは神戸三宮店の見出しの78px上にあり 開いた位置に三宮が来る。
+       アンカーが将来消えても /shops/ の先頭に着くだけで 行き先自体は壊れない。
+       **必ず別タブで開く。**出口を1本増やす代わりの最低条件（このLPのタブを閉じさせない）。 -->
+  <div class="topbar">
+    <img src="img/asobibar-logo-dark.svg" alt="ASOBIBAR" width="166" height="33">
+    <!-- 並びは公式ヘッダーと同じ（採用情報が左、店舗情報が右、間隔8px）。
+         採用情報のURLは公式サイト（asobibar.net）のリンクを実際に見て確認した。
+         推測で書いていない。
+         見た目と動きも公式ヘッダーの2つのボタンから写した（計算値で採寸）。 -->
+    <nav class="topbar__links" aria-label="ASOBIBAR公式サイト">
+      <a class="topbar__recruit" href="https://asobibar.net/recruit"
+         target="_blank" rel="noopener">採用情報</a>
+      <a class="topbar__status" href="https://asobibar.net/shops/#area-2"
+         target="_blank" rel="noopener">店舗情報</a>
+    </nav>
+  </div>
+
+  <!-- PDF の幾何学パターンと大型ロックアップを主役にする。 -->
+  <header class="fv">
+    <!-- カンプの地は「細い格子」ではなく 大小のパステル角形が散っている。
+         フチなし・重なりあり・白地が抜ける。span 1つ = 図形1つ。 -->
+    <div class="geoset" aria-hidden="true">
+      <i class="g g1"></i><i class="g g2"></i><i class="g g3"></i><i class="g g4"></i>
+      <i class="g g5"></i><i class="g g6"></i><i class="g g7"></i><i class="g g8"></i>
+      <i class="g g9"></i><i class="g g10"></i><i class="g g11"></i><i class="g g12"></i>
+      <i class="g g13"></i><i class="g g14"></i>
+      <i class="hatch h1"></i><i class="hatch h2"></i>
+      <!-- 着地が終わったあと 細い帯が斜めに差し込み続ける。
+           静止した角形の composition は動かさない。動くのはこの5本だけ。 -->
+      <i class="beam b1"></i><i class="beam b2"></i><i class="beam b3"></i><i class="beam b4"></i><i class="beam b5"></i><i class="beam b6"></i><i class="beam b7"></i><i class="beam b8"></i><i class="beam b9"></i><i class="beam b10"></i><i class="beam b11"></i><i class="beam b12"></i>
+    </div>
+    <div class="wrap fv__inner">
+      <p class="fv__bubble">19歳から入店 </p>
+      <p class="fv__tsuini">遂に</p>
+      <h1 class="fv__kaikin" data-text="解禁">解禁</h1>
+      <p class="fv__limited">神戸三宮店限定</p>
+      <p class="fv__start"><time datetime="2026-07-01">2026.07/01</time> START<span aria-hidden="true">≫</span></p>
+      <p class="fv__promise"><b>19:00〜22:00</b><span>遊び放題・ノンアルコール飲み放題</span></p>
+
+      <a class="cta" href="https://lin.ee/zN6DdNM" target="_blank" rel="noopener">
+        LINE予約はこちら
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="contents" aria-labelledby="contents-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="section-heading__en">CONTENTS</p>
+          <h2 id="contents-title">三宮店限定コンテンツ</h2>
+        </div>
+
+        <!-- 導入はカードの外に出す。カードの中に入れると写真の説明に見える。 -->
+        <!-- 見出しから「3時間」を外した。**尺を見出しにすると制限に聞こえる**
+             （「3時間しか遊べない」と読まれる）。
+             利用時間そのものは必要な条件なので、本文と RULE に残す。
+             見出しは「いつ来られるか」を前向きに言う。 -->
+        <p class="contents__lead">
+          <b>授業や仕事のあと そのまま遊べる</b>
+          満19歳限定のノンアルコールプランです<br>ご利用は19:00から22:00まで。
+        </p>
+
+        <!-- 種目カード。**名前の真下に台数**を置く。
+             以前は名前と台数を space-between で左右の端に飛ばしていて、
+             実測150〜202px離れ、1つの事実として読めなかった。
+
+             2026-09-04 に3枚目（最新ゲーム機）が入り、3枚とも写真が付いた。
+             **SPはダーツを全幅、残り2枚を横並び。**3枚を2列に置くと1枠余るのと、
+             半分幅では4人が写った写真が読めないため。1列に3枚積む案も描いたが、
+             セクションの高さが倍近くになるので採らなかった。
+             **PC（768px以上）では3枚が等幅で並ぶ。**
+             写真の縦横比は3枚とも違う（4:3 / 3:2 / 16:9）ので
+             `.gear-card img` 側で 3:2 に揃えている。 -->
+        <ul class="gear" aria-label="遊べる種目と台数">
+          <li class="gear-card gear-card--lead sticker-card">
+            <!-- ダーツ台が4台写っている写真。**「4台」の裏付けそのもの**なので、
+                 16:9 に切ると台が欠ける。元の縦横比（4:3）のまま出す。 -->
+            <img src="img/play-darts-sannomiya.jpg"
+                 alt="ASOBIBAR神戸三宮店に並ぶ4台のダーツ台と、それを囲む来店客"
+                 width="1400" height="1050" loading="lazy" decoding="async">
+            <div class="gear-card__label">
+              <span class="gear-card__name">ダーツ</span>
+              <span class="gear-card__count"><b>4</b>台</span>
+            </div>
+          </li>
+          <li class="gear-card sticker-card">
+            <img src="img/play-beerpong-sannomiya.jpg"
+                 alt="ASOBIBAR神戸三宮店のビアポン台を囲み、ボールを投げる来店客"
+                 width="1400" height="933" loading="lazy" decoding="async">
+            <div class="gear-card__label">
+              <span class="gear-card__name">ビアポン</span>
+              <span class="gear-card__count"><b>1</b>台</span>
+            </div>
+          </li>
+          <li class="gear-card sticker-card">
+            <img src="img/play-games-sannomiya.jpg"
+                 alt="ASOBIBAR神戸三宮店のソファ席でコントローラーを持ち ハイタッチする来店客"
+                 width="1400" height="788" loading="lazy" decoding="async">
+            <div class="gear-card__label">
+              <span class="gear-card__name">最新ゲーム機</span>
+              <span class="gear-card__count"><b>3</b>台</span>
+            </div>
+          </li>
+        </ul>
+
+        <!-- プランの条件。コンテンツではないのでカードの外・セクション末に置く。 -->
+        <div class="venue-card__bands">
+          <p class="info-band info-band--coral">
+            <span class="mini-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="14"/><path d="M20 20V12M20 20l6 6"/></svg>
+            </span>
+            <b>19:00〜22:00まで遊び放題</b>
+          </p>
+          <p class="info-band info-band--blue">
+            <span class="mini-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40"><path d="M11.5 13h15l-1.7 17.6a2.2 2.2 0 0 1-2.2 2h-7.2a2.2 2.2 0 0 1-2.2-2z"/><path d="M12.9 19.6h12.2"/><path d="M29.5 4.5 21.4 24"/></svg>
+            </span>
+            <b>ソフトドリンク飲み放題</b>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 広告の料金情報を前方で再掲する。 -->
+    <section class="terms" aria-labelledby="plan-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="section-heading__en">PLAN</p>
+          <h2 id="plan-title">料金</h2>
+        </div>
+
+        <div class="terms__prices" aria-label="料金">
+          <!-- 枠は表ではなく外側のdivに掛ける。<caption> は表の枠の「外」に
+               置かれる仕様なので、表に border を掛けると帯だけが枠の外に出て
+               左右に3pxずつはみ出し、角丸も黒枠も付かなかった。 -->
+          <div class="terms__price sticker-card">
+            <table>
+              <caption>平日<small>（日〜木）</small></caption>
+              <tr><th scope="col">男性</th><th scope="col">女性</th></tr>
+              <tr><td class="m">¥2,500<small>税込</small></td><td class="f">¥500<small>税込</small></td></tr>
+            </table>
+          </div>
+          <div class="terms__price sticker-card">
+            <table>
+              <caption>週末<small>（金・土・祝前日）</small></caption>
+              <tr><th scope="col">男性</th><th scope="col">女性</th></tr>
+              <tr><td class="m">¥3,000<small>税込</small></td><td class="f">¥1,000<small>税込</small></td></tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- 曜日の区分は**カンプに合わせる**（2026-09-04 確定）。
+             カンプの原文は「平日 ( 日〜木 )」「週末 ( 金・土・祝前日 )」。
+             広告バナーは「週末（金土日祝前日祝日）」で、**日曜の扱いが食い違っていた**が
+             カンプを採る判断。祝日そのものはカンプに記載が無いので書いていない。 -->
+        <div class="discount-callout">
+          <p>LINEご予約で</p>
+          <b>さらに500円OFF!!</b>
+        </div>
+        <a class="cta" href="https://lin.ee/zN6DdNM" target="_blank" rel="noopener">
+          LINE予約はこちら
+        </a>
+      </div>
+    </section>
+
+    <!-- PDF のコーラル RULE セクションを、19歳本人に必要な情報だけで再構成。 -->
+    <section class="rules" aria-labelledby="rules-title">
+      <div class="wrap">
+        <div class="section-heading section-heading--light">
+          <p class="section-heading__en">RULE</p>
+          <h2 id="rules-title">みなさんに守っていただくルール</h2>
+        </div>
+
+        <!-- カンプ「みなさに守っていただくルール」の6枚をそのまま。推測で足さない。
+             見出しはカンプが「みなさに」（ん抜け）。**2026-09-02 に「みなさんに」で確定。** -->
+        <div class="rules__grid">
+          <article class="rule-card sticker-card">
+            <span class="rule-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#i-clock"/></svg></span>
+            <h3>ご利用時間</h3>
+            <p><b>19:00〜22:00まで</b>（3時間のみ）22:00になりましたら必ずご退店いただきます。</p>
+          </article>
+
+          <article class="rule-card sticker-card">
+            <span class="rule-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#i-no-beer"/></svg></span>
+            <h3>アルコール提供はなし</h3>
+            <p>アルコールの提供・飲酒は一切できません。</p>
+          </article>
+
+          <article class="rule-card sticker-card">
+            <span class="rule-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#i-match25"/></svg></span>
+            <h3>マッチングは25歳まで</h3>
+            <p>マッチングは25歳以下の方のみ可能です。</p>
+          </article>
+
+          <article class="rule-card sticker-card">
+            <span class="rule-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#i-no-vip"/></svg></span>
+            <h3>ゴールドバンド・VIPプランは選べません</h3>
+            <p>ゴールドバンド・VIPプランはご利用いただけません。</p>
+          </article>
+
+          <article class="rule-card sticker-card">
+            <span class="rule-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#i-band"/></svg></span>
+            <h3>ドリンク注文時はカラーバンドを提示</h3>
+            <p>ドリンク注文時は必ずバーカウンターにてカラーバンドをご提示ください。</p>
+          </article>
+
+          <article class="rule-card sticker-card">
+            <span class="rule-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#i-staff"/></svg></span>
+            <h3>スタッフの指示に従ってください</h3>
+            <p>スタッフの案内・指示に必ず従ってください。</p>
+          </article>
+        </div>
+
+        <div class="rule-notice">
+          <svg class="rule-notice__icon" viewBox="0 0 64 64" aria-hidden="true"><use href="#i-no-alcohol"/></svg>
+          <p>お酒の提供は一切ありません。<br>安全に楽しむため 店内ルールを守ってご利用ください。</p>
+        </div>
+
+        <div class="consent-note sticker-card">
+          <svg class="consent-note__mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#i-warning"/></svg>
+          <p>下記の利用規約に同意したうえでご入店・ご利用いただきます。</p>
+          <p>ご入店・ご利用・お会計完了をもって 本利用規約にご同意いただいたものといたします。</p>
+        </div>
+
+        <div class="terms-doc sticker-card">
+          <p class="terms-doc__label">利用規約</p>
+          <ol class="terms-doc__list">
+            <li>店内におけるルールおよびスタッフの指示には必ず従っていただきます。</li>
+            <li>アルコールの受け渡し、飲酒、回し飲み等を確認した場合は、その場で退店いただきます。</li>
+            <li>本規約違反による返金はいたしかねます。</li>
+            <li>店内で知り合ったお客様同士のトラブルについては、当事者間で解決していただきます。</li>
+            <li>店外で発生したトラブル・事故・紛争について、弊社は責任を負いかねます。</li>
+            <li>スタッフが19歳と判断した場合は、身分証の再提示をお願いする場合があります。</li>
+            <li>お客様ご自身の故意または過失により生じた損害について、弊社は責任を負いかねます。</li>
+            <li>スタッフが安全な店舗運営に支障があると判断した場合は、理由を問わずご退店いただく場合があります。</li>
+            <li>法令違反または本規約違反が確認された場合、必要に応じて警察等の関係機関へ通報・協力を行う場合があります。</li>
+            <li>本規約は、安全な店舗運営のため、必要に応じて予告なく変更する場合があります。</li>
+          </ol>
+        </div>
+        <!-- 成人向けセクションを消した際、免責注記だけ残る利用規約の下に移した。
+             規約は残るので、注記だけ消すと法的な建て付けが変わる。**原文のまま。** -->
+        <p class="legal-foot">※本規約は、お客様の法令上の権利を制限するものではありません。また、弊社の故意または重大な過失による損害についてまで責任を免除するものではありません。</p>
+      </div>
+    </section>
+
+    <!-- Q&A は削除（2026-09-04）。中にあった店舗カードだけ残す——
+         店舗情報は店舗からの要望で入れたもので、アクセス（Googleマップ）は
+         ここにしか無い。 -->
+    <section class="store" aria-labelledby="store-title">
+      <div class="wrap">
+        <div class="store-card sticker-card">
+          <h3 id="store-title">ASOBIBAR 神戸三宮店</h3>
+          <dl>
+            <div><dt>対象</dt><dd>満19歳限定</dd></div>
+            <div><dt>利用時間</dt><dd>19:00〜22:00</dd></div>
+            <!-- 身分証の記載は削除したQ&Aから移した。文言はそのまま。
+                 「入店後も再提示をお願いする場合があります」は利用規約06に
+                 残っているので、ここでは繰り返さない。 -->
+            <div><dt>持ちもの</dt><dd>学生証・免許証・マイナンバーカードなど 年齢が確認できるもの</dd></div>
+            <div><dt>アクセス</dt><dd><a href="https://goo.gl/maps/mfRDaWNstX6tgr2v8" target="_blank" rel="noopener">Google&nbsp;マップで見る</a></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 神戸三宮店のSNS導線（2026-09-04）。
+         **URLは2つとも実際に開いて確認した。**推測で書いていない。
+           Instagram @asb_sannomiya … プロフィール名「ASOBIBAR 神戸三宮」。店舗公式
+           TikTok    @asb_shinya    … プロフィール名「【ASOBIBAR】やっちょ」。
+                                       三宮の店長本人のアカウント（2026-09-04 確認済み）。
+                                       **屋号が入っていないだけで、正しい飛び先。**
+
+         どちらもプロフィール文の先頭が20歳以上向けの飲み放題プランになっているが、
+         **そのままでよいと判断済み（2026-09-04）。**このLP自体が同じ店の訴求で
+         成り立っており、読み手も前提を理解している、という判断。**蒸し返さない。**
+         `?openExternalBrowser=1` は LINE のアプリ内ブラウザ対策。
+         このLPの流入はLINEなので、付けないとLINEのWebViewの中で開いて
+         ログイン画面になり、アプリに渡らない。**LINE以外では無視される。** -->
+    <section class="sns" aria-labelledby="sns-title">
+      <div class="wrap">
+        <div class="section-heading section-heading--light">
+          <p class="section-heading__en">SNS</p>
+          <h2 id="sns-title">お店の様子はこちら</h2>
+        </div>
+        <p class="sns__lead">イベントの告知も 普段の店内も ここに投稿しています。</p>
+        <ul class="sns__grid">
+          <li>
+            <a class="sns-card sticker-card"
+               href="https://www.instagram.com/asb_sannomiya/?openExternalBrowser=1"
+               target="_blank" rel="noopener">
+              <span class="sns-card__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-instagram"/></svg></span>
+              <span class="sns-card__name">Instagram</span>
+              <span class="sns-card__id">@asb_sannomiya</span>
+            </a>
+          </li>
+          <li>
+            <a class="sns-card sticker-card"
+               href="https://lite.tiktok.com/t/ZS9BKNnADAGtM-nosTr/?openExternalBrowser=1"
+               target="_blank" rel="noopener">
+              <span class="sns-card__icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-tiktok"/></svg></span>
+              <span class="sns-card__name">TikTok</span>
+              <span class="sns-card__id">@asb_shinya</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  <footer class="final-cta">
+    <div class="geoset" aria-hidden="true">
+      <i class="g g1"></i><i class="g g3"></i><i class="g g5"></i><i class="g g6"></i>
+      <i class="g g8"></i><i class="g g9"></i><i class="g g11"></i><i class="g g13"></i>
+      <i class="hatch h1"></i>
+    </div>
+    <div class="wrap">
+      <p class="final-cta__lead">あなたの世界を<br><b>BAR</b>で広げる</p>
+      <p class="final-cta__bubble">19歳から入店 </p>
+      <p class="final-cta__tsuini">遂に</p>
+      <h2 data-text="解禁">解禁</h2>
+      <p class="final-cta__limited">神戸三宮店限定</p>
+      <p class="fv__start"><time datetime="2026-07-01">2026.07/01</time> START<span aria-hidden="true">≫</span></p>
+      <a class="cta" href="https://lin.ee/zN6DdNM" target="_blank" rel="noopener">
+        LINE予約はこちら
+      </a>
+    </div>
+  </footer>
+</div>
+
+<!-- 出口は LINE だけ。別タブで開いて このLPのタブを残す。
+     TODO(公開前): **本番アカウントに実際に1件通して着弾を確認する。**
+     TODO(店舗確認): **予約数の計測方法。**リンクを繋いだだけでは 
+     どの予約がこのLP経由か分からない。友だち追加数とは別に要る。 -->
+<a class="cta-fixed" href="https://lin.ee/zN6DdNM" target="_blank" rel="noopener">
+  LINE予約はこちら
+</a>
+
+<!-- 動き。物理法則は「ステッカーが貼られる」1つだけ（docs/design-docs/lp-visual-knowledge.md §6）。
+
+     **中身を動きの後ろに隠さない**（同 §7）。守り方は2つ:
+     1. FV は読み込み時の transition だけ。監視に依存しないので必ず完了する。
+     2. スクロール着地は **IntersectionObserver が実際にコールバックを返したことを
+        確認してから**要素を隠す。返らない環境では隠さない＝そのまま全部見える。
+        （このプレビュー環境では実際に IO が発火せず 確認前の実装では71要素が
+        不可視のまま残った。動く保証のない仕組みに中身を預けない。） -->
+<script>
+(function () {
+  var root = document.documentElement;
+
+  /* ── 0. 固定CTAの出し入れ。**動きの設定に関係なく必ず動かす。**
+     出すのは FVの下端を越えてから（＝ CONTENTS の上端）。
+     引っ込めるのは 最終CTA（.final-cta）が画面に入ってから。
+     **最終CTAの中には同じLINEボタンがある。**固定CTAを出したままだと
+     同じボタンが上下に2つ並ぶので、実物が出たら浮いているほうを消す。
+
+     **隠す指定は `js-cta` が付いたときだけ効かせる。**
+     JSが動かない環境で隠したままにすると、**CVそのものが消える**。
+     `prefers-reduced-motion` でも出し入れは行う（装飾ではなく導線なので）。
+     ただしCSS側で transition を切るので、その環境では瞬時に切り替わる。
+
+     **IntersectionObserver は使わない。**ここはCVそのものなので、
+     動かない環境があり得る仕組みに預けない（スクロール着地とは別扱い）。 */
+  var fv = document.querySelector('.fv');
+  var lastCta = document.querySelector('.final-cta');
+  if (fv) {
+    root.classList.add('js-cta');
+    var shown = false;
+    var check = function () {
+      // pageYOffset が 0 のままの実装があるので 両方見る
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      var pastFv = y > fv.offsetTop + fv.offsetHeight;
+      // 最終CTAが画面の下から 80px 入ったら、そこからは実物に任せる
+      var atEnd = lastCta
+        ? lastCta.getBoundingClientRect().top < innerHeight - 80
+        : false;
+      var now = pastFv && !atEnd;
+      if (now === shown) return;
+      shown = now;
+      root.classList.toggle('past-fv', shown);   // 固定CTAの表示と 帯の一時停止を兼ねる
+    };
+    addEventListener('scroll', check, { passive: true });
+    addEventListener('resize', check, { passive: true });
+    check();
+  }
+
+  if (!window.matchMedia || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  // ── 1. FV。監視に依存しない ──
+  // ただし requestAnimationFrame も「回らない」ことがある（描画していない iframe 
+  // バックグラウンドタブ）。rAF だけに預けると FV が隠れたまま残るので 
+  // setTimeout の保険を必ず併走させる。**先に来たほうで着地させる。**
+  root.classList.add('motion-fv');
+  var fvDone = false;
+  function landFv() {
+    if (fvDone) return;
+    fvDone = true;
+    root.classList.add('fv-in');
+  }
+  requestAnimationFrame(function () { requestAnimationFrame(landFv); });
+  setTimeout(landFv, 250);
+
+  if (!('IntersectionObserver' in window)) return;
+
+  // ── 2. スクロール着地。まず仕組みが動くかを確かめる ──
+  var probe = document.createElement('div');
+  probe.setAttribute('aria-hidden', 'true');
+  probe.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;pointer-events:none';
+  document.body.appendChild(probe);
+
+  var settled = false;
+  var probeIO = new IntersectionObserver(function () {
+    if (settled) return;
+    settled = true;
+    probeIO.disconnect();
+    probe.remove();
+    start();                                  // 発火した。ここで初めて隠す
+  });
+  probeIO.observe(probe);
+
+  // 返ってこなければ何もしない。ページはそのまま全部見えている。
+  setTimeout(function () {
+    if (settled) return;
+    settled = true;
+    probeIO.disconnect();
+    probe.remove();
+  }, 400);
+
+  function start() {
+    var SHADOWED = '.sticker-card, .gear > li, .cta';
+    var FLAT = '.section-heading, .info-band, .consent-note, .discount-callout, ' +
+               '.legal-foot, .rule-notice, .terms-doc__list > li';
+
+    var items = [];
+    function collect(sel, flat) {
+      Array.prototype.forEach.call(document.querySelectorAll(sel), function (el) {
+        if (el.closest('.fv')) return;          // FV は 1. で処理済み
+        el.classList.add('stick');
+        if (flat) el.classList.add('stick--flat');
+        items.push(el);
+      });
+    }
+    collect(SHADOWED, false);
+    collect(FLAT, true);
+    if (!items.length) return;
+
+    // 同じ親の中の並びだけ 少しずらして着地させる。最大5枚分まで。
+    var seen = new Map();
+    items.forEach(function (el) {
+      var n = seen.get(el.parentNode) || 0;
+      seen.set(el.parentNode, n + 1);
+      if (n) el.style.setProperty('--stick-delay', Math.min(n, 5) * 60 + 'ms');
+    });
+
+    root.classList.add('motion-scroll');
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('is-in');
+        io.unobserve(e.target);                 // 一度着地したら戻さない
+      });
+    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.01 });
+
+    items.forEach(function (el) { io.observe(el); });
+  }
+})();
+</script>
+
+</body>
+</html>
