@@ -20,7 +20,7 @@
 <meta property="og:image:alt" content="19歳から入店 遂に解禁 ASOBIBAR 神戸三宮店限定 2026年7月1日スタート">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/style.css?v=86">
+<link rel="stylesheet" href="css/style.css?v=89">
 </head>
 <body>
 
@@ -185,28 +185,17 @@
 
   <!-- PDF の幾何学パターンと大型ロックアップを主役にする。 -->
   <header class="fv">
-    <!-- カンプの地は「細い格子」ではなく 大小のパステル角形が散っている。
-         フチなし・重なりあり・白地が抜ける。span 1つ = 図形1つ。 -->
-    <!-- 店内の映像。**高さは足さない**——FVの背景として敷く。
-         ブロックとして差し込むと、いま画面内ギリギリにあるCTAが折り返しの下へ落ちる。
-         映像は紫ネオンの暗い店内なので、白のスクリムを重ねて
-         もとの明るい設計（黒文字・パステルの図形）が読めるようにしている。
+    <!-- 店内の映像。**FVの主役。**高さを足さない背景として敷く。
+         ブロックとして差し込むと、画面内ギリギリにあるCTAが折り返しの下へ落ちる。
+         2026-09-04、パステルの角形（.geoset）はここから外した。
+         **映像と図形を重ねると映像が見えない。**動きも映像が担うので図形は要らない。
+         文字は白に反転させてある（_fv.scss）。
          音声トラックは無い。`muted playsinline` はスマホで自動再生させるために必須。 -->
     <div class="fv__video" aria-hidden="true">
       <video src="video/karaoke-scene.mp4" poster="video/karaoke-scene-poster.jpg"
              muted loop autoplay playsinline preload="metadata"></video>
     </div>
 
-    <div class="geoset" aria-hidden="true">
-      <i class="g g1"></i><i class="g g2"></i><i class="g g3"></i><i class="g g4"></i>
-      <i class="g g5"></i><i class="g g6"></i><i class="g g7"></i><i class="g g8"></i>
-      <i class="g g9"></i><i class="g g10"></i><i class="g g11"></i><i class="g g12"></i>
-      <i class="g g13"></i><i class="g g14"></i>
-      <i class="hatch h1"></i><i class="hatch h2"></i>
-      <!-- 着地が終わったあと 細い帯が斜めに差し込み続ける。
-           静止した角形の composition は動かさない。動くのはこの5本だけ。 -->
-      <i class="beam b1"></i><i class="beam b2"></i><i class="beam b3"></i><i class="beam b4"></i><i class="beam b5"></i><i class="beam b6"></i><i class="beam b7"></i><i class="beam b8"></i><i class="beam b9"></i><i class="beam b10"></i><i class="beam b11"></i><i class="beam b12"></i>
-    </div>
     <div class="wrap fv__inner">
       <p class="fv__bubble">19歳から入店 </p>
       <p class="fv__tsuini">遂に</p>
