@@ -6,7 +6,7 @@ ASOBIBAR 神戸三宮店 満19歳プランLP の**配信用**リポジトリ。
 このリポジトリはそこから**ブラウザに配るファイルだけ**を写したもの。
 
 - 公開URL: https://hic-digitalsolution.github.io/asobibar-19-site/
-- 中身: `index.html` / `css/style.css` / `img/*` の8ファイルのみ
+- 中身: `index.html` / `css/style.css` / `img/*` / `video/*` のみ
 - カンプ・Sass・作業ログ・harness は private 側にある
 
 ## 更新のしかた
@@ -21,6 +21,7 @@ for f in asobibar-logo-dark.svg favicon.svg og-image.jpg \
          play-darts-sannomiya.jpg play-beerpong-sannomiya.jpg play-games-sannomiya.jpg; do
   cp "$SRC/img/$f" "img/$f"
 done
+cp "$SRC/video/karaoke-scene.mp4" "$SRC/video/karaoke-scene-poster.jpg" video/
 git add -A && git commit -m "<何を変えたか>" && git push
 ```
 
